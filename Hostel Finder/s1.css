@@ -1,0 +1,168 @@
+.nav {
+    margin-top: 2px;
+    padding-left: 10px;
+}
+.nav-item {
+   
+    margin-right: 20px;
+}
+#hi :hover {
+    position: relative;
+    top: -20px;
+    transform: scale(1.2);
+}
+#hii :hover {
+    background-color: rgb(230, 229, 227);
+    transform: scale(0.2);
+    
+}
+.con{
+    
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#mom {
+    display: flex;
+}
+
+#per {
+    margin-left: 9px;
+}
+.in {
+    margin-right: 10px;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: white;
+    
+    
+    
+}
+#pro {
+    margin-top: 10px;
+    color: yellow;
+    background-color:lightgray ;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 200px;
+    height: 6px;
+}
+
+.con :hover {
+    cursor:pointer;
+    transform: scale(1.10); 
+}
+#trus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+#trust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.udaay {
+    height: 100vh;
+    width:99vw;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.h {
+    position: relative;
+    display: inline-block;
+}
+
+.i {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    text-align: center;
+    padding-bottom: 150px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 15px;
+    
+   
+}
+
+
+#boxx {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#region {
+    padding-right: 30px;
+}
+#a {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+#title {
+    padding-left: 30px;
+}
+
+p {
+    font-size: 15px;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:    #EAEDED     ;
+}
+
+#h {
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 10px;
+
+    
+   
+}
+
+#h1 {
+    background-color: aliceblue;
+    display: flex;
+    
+}
+#hos1 {
+    height:250px;
+    margin-right: 3%;
+    
+}
+
+#h3 {
+    height: 5px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+#add {
+    padding-top: 60px;
+}
+
+.logo {
+    padding-left: 15px;
+}
+.loh {
+    padding-left: 8px;
+}
+
+.carousel-inner {
+    size: 400px;
+}
+
+
+#tit {
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
