@@ -1,0 +1,385 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hostel Finder</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="s1.css" >
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark rounded bg-dark text-white fixed-top">
+          <ul class="nav justify-content-right">
+              <li class="logo">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-buildings" viewBox="0 0 16 16">
+                      <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
+                      <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
+                    </svg>
+              </li>
+
+              <li class="loh">
+                  <a class="navbar-brand" id="tit" href="web.html"><em>Hostel</em> Finder</a>
+              </li>
+              
+
+          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" 
+          aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbar">     
+              <span class="navbar-toggler-icon"></span>    
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav ms-auto">  
+                  <li class="nav-item">
+                      <a href="web.html" class="nav-link"> Home </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#Search " class="nav-link"> Search </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Contact"> Contact  </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#Aboutus" class="nav-link">About us </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="login.html"class="nav btn  btn-primary rounded " id="login"  >
+                      Login
+                    </a>
+            </li>
+                  
+                  <li class="nav-item">
+                        <a href="signup.html" class="nav btn  btn-primary rounded  " id="login"  >
+                          Sign Up
+                        </a>
+                  </li>
+                  
+                  
+              </ul>
+          </div>
+      </nav>
+
+      <div class="h">
+          <img src="hotel.avif" class="udaay">
+          
+          <div class="i">
+            <h1 id="hos"> <em>  Welcome to Hostel Finder – Your Ultimate Travel Companion!</em></h1>
+            <p><em>Hostel Finder helps you easily discover affordable and comfortable hostels</em></p>
+            
+          </div>
+      
+      
+      </div>
+      <br>
+      <br>
+      
+      <h2 id="h"> <b>Find Budget-Friendly Hostels Near You: </b></h2>
+      <br>
+
+      
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="hos2.jpg" class="d-block w-100" alt="..." class="ma" height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <span><h3 >Nexin-Men's Hostel</h3></span>
+                <span>Osman Sagar Rd, Kokapet, Gandipet, Hyderabad, Telangana 500075</span>
+                <br>
+                <br>
+                <button class="btn btn-primary btn-light">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="hos1.jpg" class="d-block w-100" alt="..." class="ma" height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <span><h3 >CBIT Hostel</h3></span>
+                <span>Osman Sagar Rd, Kokapet, Gandipet, Hyderabad, Telangana 500075</span>
+                <br>
+                <br>
+                <button class="btn btn-primary btn-light">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="h1.jpg" class="d-block w-100" alt="..." class="ma" height="500px">
+              <div class="carousel-caption d-none d-md-block">
+                <span><h3 >Sdelight Hostel</h3></span>
+                <span>Osman Sagar Rd, Kokapet, Gandipet, Hyderabad, Telangana 500075</span>
+                <br>
+                <br>
+                <button class="btn btn-primary btn-light">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div style="background-color: black; border: 1px solid black;"></div>
+      <br>
+      <br>
+      <div>
+        <span id="trust"><b>Trusted by Thousands, Loved by Guests</b></span>
+        
+        <span id="trus"> Showcasing credibility and positive experiences,</span>
+        <span id="trus">Emphasizing safety, authenticity, and trustworthiness</span>
+      </div>
+      <br>
+
+      <div class="con">
+        <div class="in">
+          <img src="home.jpg" height="80px" style="padding-top: 10px; padding-left: 160px;">
+          <br>
+          <br>
+          <span style="display: flex;
+          justify-content: center;
+          align-items: center;" ><b>Comfortable & Cozy Stay</b></span>
+          <div style="padding-left: 20px; font-size: 15px;">Enjoy a home-like experience with well-furnished rooms, fresh bedding, and clean surroundings. Our hostels provide a peaceful atmosphere, ensuring a restful stay for travelers, students, and working professionals.We have served thousands of happy travelers, students, and working professionals. Our hostels are known for their excellent service, cleanliness, and hospitality. With consistently high ratings and positive reviews, we ensure a comfortable and hassle-free stay for all our guests
+
+          </div>
+        </div>
+        <div class="in">
+          <img src="money.webp" height="80px" style="padding-top: 10px; padding-left: 160px;">
+          <br>
+          <br>
+          <span style="display: flex;
+          justify-content: center;
+          align-items: center;" ><b>Affordable Yet Premium</b></span>
+          <div style="padding-left: 20px; font-size: 15px;">We believe that quality accommodation shouldn't come at a high price. Our hostels provide a perfect balance of affordability and premium amenities, ensuring a comfortable stay without exceeding your budget.
+            Cozy beds, clean linens, and ample storage
+            Stay connected anytime, anywhere.
+            Enjoy fresh, nutritious food every day.
+            Regular cleaning for a stress-free stay.
+            24/7 convenience for all guests.
+
+          </div>
+
+        </div>
+        <div class="in">
+          <img src="safe.webp" height="100px" style="padding-top: 10px; padding-left: 160px;">
+          <br>
+          
+          <span style="display: flex;
+          justify-content: center;
+          align-items: center;" ><b>100% Safe & Trusted</b></span>
+          <div style="padding-left: 20px; font-size: 15px;">At Hostel Finder, we understand that when choosing a place to stay, safety and trust come first. That’s why we are committed to providing a secure, transparent, and comfortable environment for all our guests. Each hostel listed on our platform undergoes a thorough verification process to ensure it meets high standards of cleanliness, security, and service. Your security is our priority. Our hostels feature 24/7 CCTV surveillance, biometric access, and verified listings.
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <div style="background-color: black; border: 1px solid black;"></div>
+      <br>
+      <br>
+      <div>
+        <h4 style="display: flex;
+        justify-content: center;
+        align-items: center;"><b>Real Stories from Our Community</b></h4>
+        <br>
+
+        <div id="mom">
+          <div>
+            <div style="border: 1px solid black; background-color: white;  height: 250px; width: 700px; margin-left: 60px; border-radius: 2%;">
+            <span> <img src="pas1.webp"     
+              style="border-radius: 50%; padding-top: 10px; padding-left: 10px; 
+              border-radius: 50%; width: 70px; height: 70px ;
+              
+              object-fit: cover;
+              max-width: none; "  ></span>
+              <span style="padding-left: 10px;"><b>Chris Heamsworth (4.0 &#9733;&#9733;&#9733;&#9733;&#9734;)</b></span>
+
+              
+              
+              <div style="padding: 20px;">I was nervous about moving to a new city for college, but Hostel Finder made the transition effortless. The hostel I found through the platform is not just a place to stay—it’s a community. The staff is friendly, the rooms are well-maintained, and I’ve made some amazing friends here.</div>
+            </div>
+            <br>
+            <div style="border: 1px solid black;background-color: white;   height: 250px; width: 700px; margin-left: 60px;  border-radius: 2%;">
+              <span> <img src="pas2.webp"     
+                style="border-radius: 50%; padding-top: 10px; padding-left: 10px; 
+                border-radius: 50%; width: 70px; height: 70px ;
+                
+                object-fit: cover;
+                max-width: none; "  ></span>
+                <span style="padding-left: 10px;"><b>Robert Downey (5.0 &#9733;&#9733;&#9733;&#9733;&#9733;) </b></span>
+    
+                
+                
+                <div style="padding: 20px;">Finding a hostel was stressful until I used Hostel Finder. The website had clear details, real reviews, and an easy booking process. My hostel is clean, safe, and filled with friendly people. I love the study spaces and social events—it really feels like home. I’d definitely recommend this to every student!</div>
+            </div>
+            <br>
+            <div style="border: 1px solid black; background-color:white;  height: 230px; width: 700px; margin-left: 60px;  border-radius: 2%;">
+              <span> <img src="pas3.jpg"     
+                style="border-radius: 50%; padding-top: 10px; padding-left: 10px; 
+                border-radius: 50%; width: 70px; height: 70px ;
+                
+                object-fit: cover;
+                max-width: none; "  ></span>
+                
+                <span style="padding-left: 10px;"><b>Chris Evans (3.0 &#9733;&#9733;&#9733;&#9734;&#9734;)</b></span>
+    
+                
+              
+                
+                
+                <div style="padding: 20px;">Hostel Finder made my search for a comfortable and affordable stay so easy! The platform is user-friendly, and I found the perfect hostel within minutes. The reviews and ratings helped me make an informed decision, and I couldn’t be happier with my stay. Highly recommended for students looking for a safe and well-managed place to live!</div>
+                
+              </div>
+              <div style="margin-top: 10px; margin-left: 60px;"><a  href="#" class="nav-a">see more..</a></div>
+          </div>
+          <div style="border: 1;">
+            <div style="border: 1px solid black; height:600px; background-color: whitesmoke; width: 600px; margin-left: 60px; margin-top: 100px;  border-radius: 2%;" id="rat">
+              <h4 style="font-family:'Times New Roman', Times, serif; display: flex;
+              justify-content: center;
+              align-items: center;padding-top: 20px; "><b><em>Rating and Reviews</em></b></h4>
+              <div style="height: 150px; width: 150px;background-color: white; border-radius: 50%; margin-left: 220px; margin-top: 30px; ">
+                <h1 style="padding-top: 30px;padding-left: 40px; font-size: 50px;">4.0</h1>
+                <h7 style="padding-top: 40px;padding-left: 30px; ">Out of 5stars</h7>
+                
+              </div>
+              <span style="padding-top: 20px;padding-left: 235px; color: goldenrod; font-size: 30px;"> &#9733;&#9733;&#9733;&#9733;&#9734;</span>
+              <br>
+              <h7 style="display: flex;
+              justify-content: center;
+              align-items: center; padding-top: 20px;"> Overall rating of 26  Total 1st party reviews</h7>
+              <br>
+              
+              <div>
+                <div style="display: flex; padding-left: 180px;" >
+                  <div >5&#9733;</div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" id="pro" aria-valuemax="100">
+                  
+                    <div class="progress-bar text-bg-warning" style="width: 100%" ></div>
+                  </div>
+                  <div id="per">10</div>
+                </div>
+                <div style="display: flex; padding-left: 180px;" >
+                  <div>4&#9733;</div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" id="pro" aria-valuemax="100">
+                  
+                    <div class="progress-bar text-bg-warning" style="width: 80%" ></div>
+                  </div>
+                  <div id="per">7</div>
+                </div>
+                <div style="display: flex; padding-left: 180px;" >
+                  <div>3&#9733;</div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" id="pro" aria-valuemax="100">
+                  
+                    <div class="progress-bar text-bg-warning" style="width: 60%" ></div>
+                  </div>
+                  <div id="per">5</div>
+                </div>
+                <div style="display: flex; padding-left: 180px;" >
+                  <div>2&#9733;</div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" id="pro" aria-valuemax="100">
+                  
+                    <div class="progress-bar text-bg-warning" style="width: 40%" ></div>
+                  </div>
+                  <div id="per">3</div>
+                </div>
+                <div style="display: flex; padding-left: 180px;" >
+                  <div>1&#9733;</div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" id="pro" aria-valuemax="100">
+                  
+                    <div class="progress-bar text-bg-warning" style="width: 20%" ></div>
+                  </div>
+                  <div id="per">1</div>
+                </div>
+                
+                
+              </div>
+              <button style="margin-left: 175px; border-radius: 4%; background-color: white; margin-top: 30px; padding-top: 5px ; padding-bottom: 5px; padding-left: 70px; padding-right: 70px;">Read our reviews</button>
+              <br>
+              <br>
+              <div style="display: flex; justify-content: center; align-items: center; font-size: 13px; margin-left: 10px;">Follow us to know more!!!!</div>
+            </div>
+            
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <footer style="background-color: #212529; color: white; height: 550px;">
+          <div style="display: flex;">
+            <div style="border: px solid black; height: 300px; width: 250px; margin-left: 160px;" id="boxx" class="bo">
+              <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Get to know us  </b></h6>
+              <div style="margin-left: 90px; margin-top: 15px;"> <a   >About Us </a></div>
+              <div style="margin-left: 90px; margin-top: 5px;"> <a   >Our Team </a></div>
+              <div style="margin-left: 90px; margin-top: 5px;"> <a   >Gallery </a></div>
+              <div style="margin-left: 90px; margin-top: 5px;"> <a   >Blog </a></div>
+              <div style="margin-left: 90px; margin-top: 5px;"> <a   >Reviews </a></div>
+            </div>
+            <div style="border: px solid black; height: 300px; width: 250px;" id="boxx">
+              <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Connect with us  </b></h6>
+              <div style="margin-left: 90px; margin-top: 15px;"> <a   >Facebook </a></div>
+              <div style="margin-left: 90px; margin-top: 5px;"> <a   >Instagram </a></div>
+              <div style="margin-left: 90px; margin-top: 5px;"> <a   >Twitter </a></div>
+            
+            </div>
+            <div style="border: px solid black; height: 300px; width: 250px;" id="boxx">
+              <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Explore More </b></h6>
+              <div style="margin-left: 70px; margin-top: 15px;"> <a   >Local Attractions </a></div>
+              <div style="margin-left: 70px; margin-top: 5px;"> <a   >Events & Activities </a></div>
+              <div style="margin-left: 70px; margin-top: 5px;"> <a   >Travel Guide </a></div>
+              
+            </div>
+            <div style="border: px solid black; height: 300px; width: 250px;" id="boxx">
+              <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Legal & Policies</b></h6>
+              <div style="margin-left: 60px; margin-top: 15px;"> <a   >Terms & Conditions  </a></div>
+              <div style="margin-left: 60px; margin-top: 5px;"> <a   >Privacy Policy  </a></div>
+              <div style="margin-left: 60px; margin-top: 5px;"> <a   >Twitter </a></div>
+            </div>
+          </div>
+          <div class="nav-footer-line"  style="border: 0.1px solid whitesmoke; filter: brightness(30%);"> </div>
+          <div style="display: flex;" >
+            <svg style="margin-left: 550px; margin-top:40px; font-size: 25px; font-family: 'Times New Roman', Times, serif; " xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-buildings" viewBox="0 0 16 16">
+              <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
+              <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
+            </svg>
+            <div style="margin-left: 10px; margin-top:40px; font-size: 25px; font-family: 'Times New Roman', Times, serif; "> <em>Hostel</em>&nbsp;Finder</div>
+            <div style="margin-left: 70px; margin-top:40px; font-size: 25px; font-family: 'Times New Roman', Times, serif; "> 
+              <select style=" font-size: 18px; padding: 7px; border-radius: 7%; background-color: #212529; color: white; border: 1px solid white;">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+              </select>
+            </div>
+
+            <div style=" border:1px solid whitesmoke; ; height: 37px;padding-left: 12px; padding-right: 20px;padding-top: 4px;padding-bottom: 5px; border-radius: 7%;margin-left: 20px; margin-top:42px;">
+              
+              <div style="margin-top: px">            
+                <img src="india.png" alt="India Logo" width="20">        
+                <span style="font-size: 15px; ">india</span>
+              </div>
+              
+              
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <span style="display: flex; justify-content: center;  font-size: 15px;  align-items: center; ">&copy; 2025 &nbsp;<a href="web.html" style="text-decoration: none; color: white;">hostelfinder  </a>.All rights reserved. 
+          </span>
+        </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+  </html>

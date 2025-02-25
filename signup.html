@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="s1.css" >
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top" >
+        <ul class="nav justify-content-right">
+            <li class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-buildings" viewBox="0 0 16 16">
+                    <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
+                    <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
+                  </svg>
+            </li>
+
+            <li class="loh">
+                <a class="navbar-brand" id="tit" href="web.html"><em>Hostel</em> Finder</a>
+            </li>
+            
+
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" 
+        aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbar">     
+            <span class="navbar-toggler-icon"></span>    
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">  
+                <li class="nav-item">
+                    <a href="web.html" class="nav-link"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Search " class="nav-link"> Search </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact"> Contact  </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Aboutus" class="nav-link">About us </a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html"><button class="nav btn  btn  btn-primary rounded "  id="login"  >
+                      Login
+                  </button></a>
+            </li>
+                <li class="nav-item">
+                       <button class="nav btn  btn btn-primary btn-dark rounded nav-link active " aria-current="page" id="login"  >
+                        Sign Up
+                    </button>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="h">
+        <img src="hotel.avif" class="udaay" >
+        <div id="box" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); margin-top: 50px;margin-left: 10px;">
+            <h4 style="display:flex; align-items: center; justify-content: center; padding-top: 20px; font-family:'Times New Roman', Times, serif ;"><b><em>Hostel</em> Finder</b></h4>
+            <form>
+            <input type="username" placeholder="Username " id="user" required >
+                <input type="email" placeholder="Email Address" id="user" required >
+                <input type="password" placeholder="Password" id="user" required >
+                <input type="password" placeholder="Confirm Password" id="user" required >
+                
+                <button id="dub">Sign Up</button>
+            </form>
+            <div id="logi">Already a member?   <a href="login.html">Login</a></div>    
+        </div>
+    </div>
+
+    <footer style="background-color: #212529; color: white; height: 550px;">
+        <div style="display: flex;">
+          <div style="border: px solid black; height: 300px; width: 250px; margin-left: 160px;" id="boxx" class="bo">
+            <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Get to know us  </b></h6>
+            <div style="margin-left: 90px; margin-top: 15px;"> <a   >About Us </a></div>
+            <div style="margin-left: 90px; margin-top: 5px;"> <a   >Our Team </a></div>
+            <div style="margin-left: 90px; margin-top: 5px;"> <a   >Gallery </a></div>
+            <div style="margin-left: 90px; margin-top: 5px;"> <a   >Blog </a></div>
+            <div style="margin-left: 90px; margin-top: 5px;"> <a   >Reviews </a></div>
+          </div>
+          <div style="border: px solid black; height: 300px; width: 250px;" id="boxx">
+            <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Connect with us  </b></h6>
+            <div style="margin-left: 90px; margin-top: 15px;"> <a   >Facebook </a></div>
+            <div style="margin-left: 90px; margin-top: 5px;"> <a   >Instagram </a></div>
+            <div style="margin-left: 90px; margin-top: 5px;"> <a   >Twitter </a></div>
+          
+          </div>
+          <div style="border: px solid black; height: 300px; width: 250px;" id="boxx">
+            <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Explore More </b></h6>
+            <div style="margin-left: 70px; margin-top: 15px;"> <a   >Local Attractions </a></div>
+            <div style="margin-left: 70px; margin-top: 5px;"> <a   >Events & Activities </a></div>
+            <div style="margin-left: 70px; margin-top: 5px;"> <a   >Travel Guide </a></div>
+            
+          </div>
+          <div style="border: px solid black; height: 300px; width: 250px;" id="boxx">
+            <h6 style="display: flex; justify-content: center; align-items: center; margin-top: 10px; "><b>Legal & Policies</b></h6>
+            <div style="margin-left: 60px; margin-top: 15px;"> <a   >Terms & Conditions  </a></div>
+            <div style="margin-left: 60px; margin-top: 5px;"> <a   >Privacy Policy  </a></div>
+            <div style="margin-left: 60px; margin-top: 5px;"> <a   >Twitter </a></div>
+          </div>
+        </div>
+        <div class="nav-footer-line"  style="border: 0.1px solid whitesmoke; filter: brightness(30%);"> </div>
+        <div style="display: flex;" >
+          <svg style="margin-left: 550px; margin-top:40px; font-size: 25px; font-family: 'Times New Roman', Times, serif; " xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-buildings" viewBox="0 0 16 16">
+            <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"/>
+            <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"/>
+          </svg>
+          <div style="margin-left: 10px; margin-top:40px; font-size: 25px; font-family: 'Times New Roman', Times, serif; "> <em>Hostel</em>&nbsp;Finder</div>
+          <div style="margin-left: 70px; margin-top:40px; font-size: 25px; font-family: 'Times New Roman', Times, serif; "> 
+            <select style=" font-size: 18px; padding: 7px; border-radius: 7%; background-color: #212529; color: white; border: 1px solid white;">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+              <option value="fr">Français</option>
+              <option value="de">Deutsch</option>
+            </select>
+          </div>
+
+          <div style=" border:1px solid whitesmoke; ; height: 37px;padding-left: 12px; padding-right: 20px;padding-top: 4px;padding-bottom: 5px; border-radius: 7%;margin-left: 20px; margin-top:42px;">
+            
+            <div style="margin-top: px">            
+              <img src="india.png" alt="India Logo" width="20">        
+              <span style="font-size: 15px; ">india</span>
+            </div>
+            
+            
+
+          </div>
+        </div>
+        <br>
+        <br>
+        <span style="display: flex; justify-content: center;  font-size: 13px;  align-items: center; ">&copy; 2025 www.hostelfinder.com All rights reserved. 
+        </span>
+      </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+    
+</body>
+</html>
+<style>
+    #logi {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-left: 110px;
+    }
+    #for {
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    #dub {
+        font-family:'Times New Roman', Times, serif;
+        color: aliceblue;
+        background-color:#384955;
+        margin-left: 40px;
+        margin-top: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 130px;
+        padding-left: 130px;
+        font-size: 18px;
+        border-radius: 4%;
+        
+    }
+
+    #box {
+
+        background-color:whitesmoke;
+        border-radius: 4%;
+        border: 2px solid black;
+        height: 500px;
+        width: 400px;
+    }
+    body {
+        
+        
+       
+        background-color: aliceblue ;
+    }
+    #user {
+        background-color: aliceblue;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 130px;
+        font-size: 15px;
+        border-radius: 4%;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+</style>
